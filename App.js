@@ -696,7 +696,7 @@ export default class App {
 			},
 			position: {
 				x: 0.5,
-				y: 0.05,
+				y: 0.15,
 			},
 			width: "100%",
 			height: "20em",
@@ -708,7 +708,7 @@ export default class App {
 				y: 0.5,
 			},
 			width: "10em",
-			height: "3em",
+			height: "2.5em",
 		}
 		this.createButton({
 			id: "btnPlay",
@@ -742,7 +742,7 @@ export default class App {
 			},
 			position: {
 				x: 0.5,
-				y: 0.95,
+				y: 0.85,
 			},
 			onClick: () => this.transitionToScene('MENU'),
 		});
@@ -1090,20 +1090,20 @@ export default class App {
 		this.clearRigidBodies(this.state.sprites);
 	}
 
-	startTempest() {
+	async startTempest() {
 		const { state, audio } = this;
 		const { musics, mixers } = audio;
 		const opts = state.transitions.toTempest;
 
 		state.plants.growth = 0.0;
 
-		setTimeout(() => this.transitionToScene('PULL'), 2000);
-
-		return fadeInMixer(
+		await fadeInMixer(
 			mixers.tempestTrack,
 			[ musics.tempest ],
 			opts.fadeSpeed,
-		)
+		);
+
+		setTimeout(() => this.transitionToScene('PULL'), 2000);
 	}
 
 	endTempest() {
@@ -2075,6 +2075,7 @@ export default class App {
 	}
 
 	renderGui() {
+		if (!this.gui) return;
 		for (const cont of this.gui.controllersRecursive()) {
 			cont.updateDisplay();
 		}
