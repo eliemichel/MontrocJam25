@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="1200"
+   height="2100"
+   viewBox="0 0 1200 2100"
+   sodipodi:docname="Chardon1.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.2792257"
+     inkscape:cx="453.61318"
+     inkscape:cy="137.98989"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <image
+       width="1200"
+       height="2100"
+       preserveAspectRatio="none"
+       xlink:href="../images/Chardon1/Chardon1-31.png"
+       id="image1"
+       x="0"
+       y="0" />
+    <circle
+       style="fill:#ea70d4;fill-opacity:1;stroke-width:1.88976;stroke-linecap:round"
+       id="anchor"
+       cx="600.75446"
+       cy="1420.4926"
+       r="20.462912" />
+    <ellipse
+       style="fill:#ea7029;fill-opacity:1;stroke-width:1.88976;stroke-linecap:round"
+       id="flower"
+       cx="542.15283"
+       cy="82.786194"
+       rx="20.462999"
+       ry="20.462912" />
+  </g>
+</svg>

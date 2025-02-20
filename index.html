@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Montroc Jam 25</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main id="main">
+		<canvas id="canvas"></canvas>
+		<div id="hud">
+			<div id="msgCenter">Chargement...</div>
+			<div id="loading">
+				<h1 class="title">Chargement...</h1>
+				<div id="loadingWrap">
+					<div id="loadingBarBackground">
+						<div id="loadingBar"></div>
+					</div>
+					<span id="loadingValue"></span>
+				</div>
+			</div>
+			<div id="menuTitle">
+				<h1 class="title">Par le vent...</h1>
+				<h2 class="subtitle">Le jeu dont vous êtes le problème.</h2>
+			</div>
+			<div id="creditsTitle">
+				<h1 class="title">Crédits</h1>
+				<ul>
+					<li>
+						<span class="comment">Conception collective</span>
+					</li>
+					<li>
+						<span class="name">Suzanne Gomont</span>
+						<span class="role">Illustration</span>
+					</li>
+					<li>
+						<span class="name">Emma Fridé</span>
+						<span class="role">Habillage sonore</span>
+					</li>
+					<li>
+						<span class="name">Élie Michel</span>
+						<span class="role">Programmation</span>
+					</li>
+					<li>
+						<span class="comment">Avec la participation de</span>
+					</li>
+					<li>
+						<span class="name">Félix David</span>
+						<span class="role">Confection d'omelettes</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<script src="js/matter.min.js"></script>
+	<script src="js/decomp.min.js"></script>
+	<script src="js/raycast.min.js"></script>
+	<script type="module">
+		import App from './App.js'
+		window.app = new App();
+	</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+Le joueur incarne le mouvement.
+
+Le joueur est l'élement perturbateur : en commençant à jouer et à intéragir, il déclenche une tempête. Cette tempête force les petits animaux à s'ancrer dans le sol.
+
+Une fois le calme revenu, ces petits animaux son bien embêtés : la seule solution qu'ils ont trouvée pour lutter contre la tempête est de s'enraciner, mais ils ne peuvent alors plus se déplacer du tout !
+
+Le joueur va devoir les aider à dépasser les difficulter de la vie végétale pour réparer son méfait et accompagner ainsi la colonie jusqu'à sa floraison.
+
+
