@@ -102,27 +102,57 @@ canvas {
 	padding: 0;
 }
 
-#creditsTitle li {
+.creditsColumns {
+	display: flex;
+	justify-content: center;
+	gap: 5em;
+}
+
+.creditsColumns > div {
+	width: 20em;
+}
+
+.mainCredits li {
 	display: flex;
 	flex-direction: column;
 	margin: 1.5em 0;
 }
 
-#creditsTitle .comment {
+.mainCredits .comment {
 	color: #dacd9e;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin: 1em 0;
 }
 
-#creditsTitle .role {
+.mainCredits .role {
 	color: #75c2c6;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-style: italic;
 }
 
-#creditsTitle .name {
+.mainCredits .name {
 	color: white;
-	font-size: 1.8em;
+	font-size: 2em;
+}
+
+.soundCredits {
+	color: white;
+	margin-top: 4.5em;
+}
+
+.soundCredits .comment {
+	font-weight: bold;
+}
+
+.soundCredits .role {
+	font-style: italic;
+}
+
+.soundCredits .role:before {
+	content: '(';
+}
+.soundCredits .role:after {
+	content: ')';
 }
 
 #msgCenter {

@@ -116,7 +116,9 @@ function computePlantAnchors(plant, assets) {
 	const key = `plant${plant.skinIndex}`;
 	const shp = shapes[key];
 	const img = images[key].data[0];
-	const { width, height } = img;
+	//const { width, height } = img;
+	const width = img.width * 2;
+	const height = img.height * 2;
 	plant.skinSize = { width, height };
 	plant.anchor = {
 		x: shp.anchor.cx / width,
@@ -2390,8 +2392,8 @@ export default class App {
 		//const fract = continuousFrameIndex - frameIndex;
 
 		const img = sequence[frameIndex];
-		const w = img.width * scale;
-		const h = img.height * scale;
+		const w = img.width * scale * 2.0;
+		const h = img.height * scale * 2.0;
 		drawScaledImage(ctx, img, position.x - w * anchor.x, position.y - h * anchor.y, w, h);
 	}
 
